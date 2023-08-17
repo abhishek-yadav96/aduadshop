@@ -1,0 +1,38 @@
+name: aduadshop
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  get: ^4.6.5
+  dio: ^5.0.3
+  flutter_image_slideshow: ^0.1.4
+  flutter_screenutil: any
+  shared_preferences: ^2.0.15
+  flutter_smart_dialog: ^4.5.4+2
+  flutter_lints: ^2.0.0
+  drop_shadow_image: ^0.9.1
+  carousel_slider: ^4.2.1
+  intl: ^0.18.0
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/
